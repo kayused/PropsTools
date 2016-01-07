@@ -1,0 +1,10 @@
+com.kevinweb.app.config.props
+InitProp
+init.properties
+debug
+config.devMode#CFG_DEV_MODE#boolean#true#JFinal是否为开发模式
+db.type#DB_TYPE#String#mysql#连接数据库类型
+db.[db.type].driverClass#DB_DRIVER_CLASS#String#com.mysql.jdbc.Driver
+db.[db.type].jdbcUrl#DB_JDBC_URL#String#jdbc:mysql://127.0.0.1:3306/jfinaluibv2?characterEncoding=UTF-8&autoReconnect=true&failOverReadOnly=false&zeroDateTimeBehavior=convertToNull
+db.[db.type].username#DB_USERNAME#String#root
+db.[db.type].password#DB_PASSWORD#String#123123
